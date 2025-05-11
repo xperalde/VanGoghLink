@@ -1,0 +1,1 @@
+const e="ne-ugadaesh";async function r(){const o=localStorage.getItem(e);if(o)return JSON.parse(o);const t=await fetch("/products.json");if(!t.ok)throw new Error(`Ошибка загрузки данных: ${t.status}`);const s=await t.json();return localStorage.setItem(e,JSON.stringify(s)),s}export{r as fetchProducts};
