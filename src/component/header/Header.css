@@ -90,7 +90,7 @@
   width: 100%;
   background-color: black;
 }
-@media (min-width: 1600px) and (max-width: 1920px) {
+@media (min-width: 1600px) and (max-width: 1919px) {
 	.header{
   	grid-template-columns: 1fr 1240px 1fr;
 	}
@@ -106,7 +106,7 @@
 		display: none
 	}
 }
-@media (min-width: 770px) and (max-width: 1600px) {
+@media (min-width: 770px) and (max-width: 1599px) {
 	.header{
   	grid-template-columns: 1fr 680px 1fr;
 	}
@@ -126,7 +126,7 @@
 		display: flex;
 	}
 }
-@media (max-width: 770px){
+@media (max-width: 769px){
 	.header{
   	grid-template-columns: 1fr 320px 1fr;
 	}

@@ -102,7 +102,7 @@
 	padding-left: 5px;
 }
 
-@media (min-width: 1600px) and (max-width: 1920px){
+@media (min-width: 1600px) and (max-width: 1919px){
 	.main{
 		grid-template-columns: 1fr 1240px 1fr;
 	}
@@ -116,7 +116,7 @@
 		width: 287px;
 	}
 }
-@media (min-width: 770px) and (max-width: 1600px){
+@media (min-width: 770px) and (max-width: 1599px){
 	.main{
 		grid-template-columns: 1fr 680px 1fr;
 	}
@@ -124,7 +124,7 @@
 		font-size: 32px;
 	}
 }
-@media (max-width: 770px){
+@media (max-width: 769px){
 	.main{
 		grid-template-columns: 1fr 320px 1fr;
 	}
