@@ -38,7 +38,7 @@
 .header__search{
 	border: 1px solid #F5F5F5;
 	width: 170px;
-	background-image: url("./Image/search-normal.svg");
+	background-image: url("./Images/searchNormal.svg");
 	background-position: right 14px center;
 	padding-left: 21px;
 }
@@ -90,14 +90,14 @@
   width: 100%;
   background-color: black;
 }
-@media (min-width: 1600px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 1760px) {
 	.header{
   	grid-template-columns: 1fr 1240px 1fr;
 	}
 	.header__search{
 		border: 1px solid #F5F5F5;
 		width: 39px;
-		background-image: url("./Image/search-normal-white.svg");
+		background-image: url("./Images/searchNormalWhite.svg");
 		background-color: black;
 		background-position: center center;
 		padding-left: 21px;
@@ -106,7 +106,7 @@
 		display: none
 	}
 }
-@media (min-width: 770px) and (max-width: 1599px) {
+@media (min-width: 730px) and (max-width: 1439px) {
 	.header{
   	grid-template-columns: 1fr 680px 1fr;
 	}
@@ -126,7 +126,7 @@
 		display: flex;
 	}
 }
-@media (max-width: 769px){
+@media (max-width: 729px){
 	.header{
   	grid-template-columns: 1fr 320px 1fr;
 	}

@@ -13,12 +13,12 @@
 	align-items: center;
 	gap: 70px;
 }
-@media (min-width: 1600px) and (max-width: 1919px){
+@media (min-width: 1440px) and (max-width: 1760px){
 	.aside{
 		grid-template-columns: 1fr 1240px 1fr;
 	}
 }
-@media (max-width: 1599px) {
+@media (max-width: 1439px) {
 	.aside{
 		display: none;
 	}

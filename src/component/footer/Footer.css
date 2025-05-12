@@ -64,7 +64,7 @@
 	color:#808080;
 	text-align: right;
 }
-@media (min-width: 1600px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 1760px) {
 	.footer{
 		grid-template-columns: 1fr 1240px 1fr;
 	}
@@ -77,7 +77,7 @@
 		padding-left: 392px;
 	}
 }
-@media (min-width: 770px) and (max-width: 1599px) {
+@media (min-width: 730px) and (max-width: 1439px) {
 	.footer{
 		grid-template-columns: 1fr 680px 1fr;
 		height: 521px;
@@ -121,7 +121,7 @@
 		gap: 20px;
 	}
 }
-@media (max-width: 769px) {
+@media (max-width: 729px) {
 	.footer{
 		grid-template-columns: 1fr 320px 1fr;
 		height: 867px;

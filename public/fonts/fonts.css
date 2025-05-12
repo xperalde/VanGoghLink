@@ -1,16 +1,4 @@
 @font-face {
-  font-family: 'Lato';
-  src: url('./Lato/Lato-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('./Lato/Lato-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
   font-family: 'Korataki';
   src: url('./Korataki/ofont.ru_Korataki.ttf') format('truetype');
   font-weight: normal;
@@ -27,4 +15,28 @@
   src: url('./Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Light'), local('Lato-Light'), url('./Lato/latolight.woff2') format('woff2'), url('./Lato/latolight.woff') format('woff'), url('./Lato/latolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'), url('./Lato/latoregular.woff2') format('woff2'), url('./Lato/latoregular.woff') format('woff'), url('./Lato/latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Semibold'), local('Lato-Semibold'), url('./Lato/latosemibold.woff2') format('woff2'), url('./Lato/latosemibold.woff') format('woff'), url('./Lato/latosemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'), url('./Lato/latobold.woff2') format('woff2'), url('latobold.woff') format('woff'), url('./Lato/latobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }

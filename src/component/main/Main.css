@@ -102,7 +102,7 @@
 	padding-left: 5px;
 }
 
-@media (min-width: 1600px) and (max-width: 1919px){
+@media (min-width: 1440px) and (max-width: 1760px){
 	.main{
 		grid-template-columns: 1fr 1240px 1fr;
 	}
@@ -116,7 +116,7 @@
 		width: 287px;
 	}
 }
-@media (min-width: 770px) and (max-width: 1599px){
+@media (min-width: 730px) and (max-width: 1439px){
 	.main{
 		grid-template-columns: 1fr 680px 1fr;
 	}
@@ -124,7 +124,7 @@
 		font-size: 32px;
 	}
 }
-@media (max-width: 769px){
+@media (max-width: 729px){
 	.main{
 		grid-template-columns: 1fr 320px 1fr;
 	}
@@ -145,5 +145,8 @@
 	}
 	.main__nameCard{
 		font-size: 16px;
+	}
+	.main__cardHoverInfo{
+		display: none;
 	}
 }
